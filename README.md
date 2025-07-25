@@ -1,0 +1,1 @@
+This is the original source code/Unity project of the game with everything included. The recommended Unity version for this is Unity 2018.4.36f1, but you should be able to safely port it to newer versions.
