@@ -4,4 +4,4 @@ The project is quite a mess and it might be hard to figure out how this whole th
 
 There's no license for this thing, so any sort of modding or modyfing is fully allowed. Don't forget to credit me for making the game if you're going to heavily modify it! :D
 
-Make sure to check out Spacee Adwentur's project files as well: https://github.com/GusvengaNew/MayroOpenWorld
+Make sure to check out Spacee Adwentur's project files as well: https://github.com/GusvengaNew/MayroOpenWorld (ignore the name, that was the temp working title)
