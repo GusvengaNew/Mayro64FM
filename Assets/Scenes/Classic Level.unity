@@ -1815,7 +1815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 26
   m_IsActive: 1
 --- !u!4 &318875093
 Transform:
@@ -3404,7 +3404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &655276988
 Transform:
@@ -4824,7 +4824,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1024440278
 Transform:
@@ -5490,7 +5490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1106399239
 Transform:
@@ -5581,7 +5581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1106914588
 Transform:
@@ -6018,7 +6018,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1187116306
 Transform:
@@ -10711,36 +10711,41 @@ PrefabInstance:
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[0]
       value: 
-      objectReference: {fileID: 2096167891}
+      objectReference: {fileID: 2096167888}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[1]
       value: 
-      objectReference: {fileID: 2096167892}
+      objectReference: {fileID: 2096167891}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[2]
       value: 
-      objectReference: {fileID: 2096167884}
+      objectReference: {fileID: 2096167892}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[3]
       value: 
-      objectReference: {fileID: 2096167885}
+      objectReference: {fileID: 2096167884}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[4]
       value: 
-      objectReference: {fileID: 2096167886}
+      objectReference: {fileID: 2096167885}
     - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
         type: 3}
       propertyPath: responses.Array.data[5]
+      value: 
+      objectReference: {fileID: 2096167886}
+    - target: {fileID: 114995802691922284, guid: a640fcdea2e7a544cadacc5dac100028,
+        type: 3}
+      propertyPath: responses.Array.data[6]
       value: 
       objectReference: {fileID: 2096167887}
     m_RemovedComponents:
@@ -11860,7 +11865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1949281597
 Transform:
@@ -13253,6 +13258,28 @@ MonoBehaviour:
   showWarnings: 1
   duration: 0
   obj: {fileID: 910202701}
+  gameObjectName: 
+  modifyType: 1
+  selectedComponentIndex: 0
+  selectedComponent: {fileID: 0}
+  componentCount: 0
+  referenceType: 1
+--- !u!114 &2096167888
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096167883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170e3358abcd7014281ff3cee18197ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleted: 0
+  showWarnings: 1
+  duration: 0
+  obj: {fileID: 1043657884}
   gameObjectName: 
   modifyType: 1
   selectedComponentIndex: 0
