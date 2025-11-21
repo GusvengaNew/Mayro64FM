@@ -34,7 +34,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -58,7 +58,7 @@ LightmapSettings:
     serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_AtlasSize: 512
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -4600,8 +4600,6 @@ GameObject:
   - component: {fileID: 366645812}
   - component: {fileID: 366645811}
   - component: {fileID: 366645810}
-  - component: {fileID: 366645809}
-  - component: {fileID: 366645808}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4626,32 +4624,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &366645808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114910997684002132, guid: cfd9407f9da9a00449f00eac989afbef,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366645806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f95621575e9be74ea8921fec62ba388, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &366645809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114443214657993174, guid: cfd9407f9da9a00449f00eac989afbef,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366645806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &366645810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4772,7 +4744,6 @@ MonoBehaviour:
     BobDuration: 0.2
     BobAmount: 0.1
   m_StepInterval: 5
-  m_FootstepSounds: []
   m_JumpSounds:
   - {fileID: 8300000, guid: 4ec7b7774ad48a542826e2158e21b8f9, type: 3}
   - {fileID: 8300000, guid: 64bb20073d9e986489d03247db856688, type: 3}

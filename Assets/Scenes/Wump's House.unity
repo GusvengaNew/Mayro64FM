@@ -34,7 +34,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -1889,7 +1889,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &91069832
 GameObject:
@@ -5655,7 +5655,7 @@ Transform:
   - {fileID: 1445677459}
   - {fileID: 933516678}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &305515778
 GameObject:
@@ -8348,7 +8348,7 @@ Transform:
   - {fileID: 343216341}
   - {fileID: 1447332745}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &460650978
 MonoBehaviour:
@@ -8364,7 +8364,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   countText: {fileID: 1331478092}
-  winText: {fileID: 0}
 --- !u!114 &460650979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8529,7 +8528,6 @@ MonoBehaviour:
     BobDuration: 0.2
     BobAmount: 0.1
   m_StepInterval: 5
-  m_FootstepSounds: []
   m_JumpSounds:
   - {fileID: 8300000, guid: 4ec7b7774ad48a542826e2158e21b8f9, type: 3}
   - {fileID: 8300000, guid: 64bb20073d9e986489d03247db856688, type: 3}
@@ -14874,7 +14872,7 @@ PrefabInstance:
     - target: {fileID: 224069875051820448, guid: 492dbfa5aae0a8244a4c406db51c363e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224069875051820448, guid: 492dbfa5aae0a8244a4c406db51c363e,
         type: 3}
@@ -19577,7 +19575,7 @@ Transform:
   m_LocalScale: {x: 2.1781712, y: 1.0000002, z: 0.9586386}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1055204347
 GameObject:
@@ -23241,7 +23239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   countText: {fileID: 1331478092}
-  winText: {fileID: 0}
 --- !u!114 &1262121516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23375,7 +23372,6 @@ MonoBehaviour:
     BobDuration: 0.2
     BobAmount: 0.1
   m_StepInterval: 5
-  m_FootstepSounds: []
   m_JumpSounds:
   - {fileID: 0}
   - {fileID: 8300000, guid: 64bb20073d9e986489d03247db856688, type: 3}
@@ -24565,7 +24561,7 @@ Transform:
   - {fileID: 131158856}
   - {fileID: 1734927456}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
 --- !u!1 &1325547970 stripped
 GameObject:
@@ -29178,7 +29174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1563156646
 GameObject:
@@ -32796,7 +32792,7 @@ Transform:
   - {fileID: 313778674}
   - {fileID: 1665094685}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -95.576004, z: 0}
 --- !u!1 &1773210080
 GameObject:
@@ -37246,7 +37242,7 @@ Transform:
   m_Children:
   - {fileID: 231351719}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!143 &2020996293
 CharacterController:

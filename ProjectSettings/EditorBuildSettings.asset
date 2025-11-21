@@ -27,9 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/BooserFight2.unity
     guid: d2d5855a2c8b2eb43aa775ad7862f5fb
   - enabled: 1
-    path: Assets/Scenes/BWH_DEMO.unity
-    guid: 69299371b02df714f9553f300f1c123b
-  - enabled: 1
     path: Assets/Scenes/Castle3thFloor.unity
     guid: 29eb25f6c4c949c47968f9f8a62f0a87
   - enabled: 1
@@ -78,9 +75,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Mayro Head.unity
     guid: f74550f64ccce6d4fa8c82f00df4df7f
   - enabled: 1
-    path: Assets/Scenes/Mayro Troll.unity
-    guid: 2fd0b2d7e7499544ebfe715c087bedca
-  - enabled: 1
     path: Assets/Scenes/MG_Math.unity
     guid: 64c187929ce361c42a594972e9eb32e4
   - enabled: 1
@@ -110,15 +104,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TeekTuukKlak.unity
     guid: 67b3119c807569b4cb06ccc4ebdb94eb
-  - enabled: 1
-    path: Assets/Scenes/test of items.unity
-    guid: d1d5708bce09bb34c979ed76b70139a6
-  - enabled: 1
-    path: Assets/Scenes/TestLevel.unity
-    guid: 66ad3b85985344c4fb054a60e76c18b2
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: d842090b6af70954f8c2ad9e78ea557b
   - enabled: 1
     path: Assets/Scenes/Volcano.unity
     guid: 2932f7842364947488076d3332e82627

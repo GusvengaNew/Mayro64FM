@@ -34,7 +34,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -8312,7 +8312,6 @@ MonoBehaviour:
     BobDuration: 0
     BobAmount: 0
   m_StepInterval: 0
-  m_FootstepSounds: []
   m_JumpSounds:
   - {fileID: 8300000, guid: 50b0ad7b649a79846a072feb025395cf, type: 3}
   - {fileID: 8300000, guid: 1df7aa0c91ddded4caa813471df633be, type: 3}
@@ -12547,7 +12546,6 @@ MonoBehaviour:
     BobDuration: 0
     BobAmount: 0
   m_StepInterval: 0
-  m_FootstepSounds: []
   m_JumpSounds:
   - {fileID: 8300000, guid: 50b0ad7b649a79846a072feb025395cf, type: 3}
   - {fileID: 8300000, guid: 1df7aa0c91ddded4caa813471df633be, type: 3}

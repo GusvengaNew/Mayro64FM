@@ -182,7 +182,7 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms: []
   - serializedVersion: 2
-    name: Epic
+    name: Epic (2x MSAA)
     pixelLightCount: 3
     shadows: 2
     shadowResolution: 2
@@ -217,7 +217,7 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     excludedTargetPlatforms: []
   - serializedVersion: 2
-    name: Mayrotastic
+    name: Mayrotastic (4x MSAA)
     pixelLightCount: 4
     shadows: 2
     shadowResolution: 2

@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -4870,6 +4870,7 @@ GameObject:
   - component: {fileID: 562561978}
   - component: {fileID: 562561977}
   - component: {fileID: 562561981}
+  - component: {fileID: 562561982}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -4993,6 +4994,18 @@ MonoBehaviour:
   volumeText: {fileID: 645491258}
   volumeSlider: {fileID: 88756751}
   invertYToggle: {fileID: 0}
+--- !u!114 &562561982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562561976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdf6577ea081e44b90805de7d09797f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &576674850
 GameObject:
   m_ObjectHideFlags: 0
@@ -9068,7 +9081,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V1.3.1 PC
+  m_Text: V1.3.2 (Windows)
 --- !u!222 &1079382413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9277,6 +9290,11 @@ PrefabInstance:
     - target: {fileID: 4632753293960446, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 82731731430920718, guid: ed022c6eaaa372f498c83d69665e2adc,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 224302179844915822, guid: ed022c6eaaa372f498c83d69665e2adc,
         type: 3}
