@@ -2408,7 +2408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &219944042
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6547,7 +6547,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Gu Bek
+  m_Text: OK
 --- !u!222 &755897059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9081,7 +9081,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V1.3.2 (Windows)
+  m_Text: V1.3.2 (Android)
 --- !u!222 &1079382413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16656,7 +16656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2128077751
 RectTransform:
   m_ObjectHideFlags: 0

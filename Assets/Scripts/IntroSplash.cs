@@ -111,7 +111,7 @@ public class IntroSplash : MonoBehaviour
 		"Obviously grilled!",
 		"Steamed!",
 		"Not on Steam!",
-		"Now available on Linux!",
+		"It's yours, my friend!",
 		"Polska!",
 		"Outta touch!",
 		"European classic!",
