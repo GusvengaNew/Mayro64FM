@@ -15,12 +15,12 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_Fog: 1
+  m_FogColor: {r: 0.5294118, g: 0.5137255, b: 0.4, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.008
   m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_LinearFogEnd: 170
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7502102, g: 0.7021919, b: 0.69979584, a: 1}
+  m_IndirectSpecularColor: {r: 0.7509887, g: 0.7021919, b: 0.69979584, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4071,7 +4071,7 @@ MonoBehaviour:
   showWarnings: 1
   duration: 0
   responseType: 0
-  loadLevelName: Select Room
+  loadLevelName: SandLand
   loadLevelNum: 0
   async: 0
   additive: 0
@@ -11482,6 +11482,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 114698775814097646, guid: c7d0dbf57839bc74a96914c2ac9192e0, type: 3}
+    - {fileID: 114525322743009370, guid: c7d0dbf57839bc74a96914c2ac9192e0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c7d0dbf57839bc74a96914c2ac9192e0, type: 3}
 --- !u!1 &1623992389 stripped
 GameObject:

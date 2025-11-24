@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Gusvenga
   productName: SupraMayro64FM
-  defaultCursor: {fileID: 2800000, guid: e25374c2eebff374b922d82942ee10c6, type: 3}
+  defaultCursor: {fileID: 2800000, guid: ace191744d4fbc649978db02505bf303, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.08731618, g: 0.11720334, b: 0.125, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -25,7 +25,7 @@ PlayerSettings:
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
-  m_SplashScreenBackgroundLandscapeAspect: 1
+  m_SplashScreenBackgroundLandscapeAspect: 2
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
@@ -123,7 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: v1.3.2 Android
+  bundleVersion: v1.4.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

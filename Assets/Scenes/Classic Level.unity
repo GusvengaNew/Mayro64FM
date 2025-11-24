@@ -18,7 +18,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44177657, g: 0.65851504, b: 0.8972033, a: 1}
+  m_IndirectSpecularColor: {r: 0.4411682, g: 0.6584823, b: 0.89728105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9351,24 +9351,23 @@ GameObject:
 --- !u!114 &1674725674
 MonoBehaviour:
   m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 114876416122877220, guid: c7d0dbf57839bc74a96914c2ac9192e0,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674725673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0492f26696b37c04e844cfdadfb1a64a, type: 3}
+  m_Script: {fileID: 11500000, guid: 55934f85133a3b74496e5c944da3d770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   deleted: 0
   showWarnings: 1
   duration: 0
-  targetObject: {fileID: 2072252999}
-  targetGameObjectName: 
-  destination: {fileID: 986965973}
-  copyRotation: 1
-  referenceType: 0
+  responseType: 0
+  loadLevelName: Classic Level
+  loadLevelNum: 0
+  async: 0
+  additive: 0
 --- !u!114 &1674725675
 MonoBehaviour:
   m_ObjectHideFlags: 0
