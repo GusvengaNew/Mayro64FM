@@ -8628,7 +8628,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V1.4.0 (Linux)
+  m_Text: V1.4.0 (Windows)
 --- !u!222 &1079382413
 CanvasRenderer:
   m_ObjectHideFlags: 0
