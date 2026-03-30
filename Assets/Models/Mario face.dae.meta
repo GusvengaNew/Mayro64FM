@@ -1,97 +1,269 @@
 fileFormatVersion: 2
 guid: 9234b937aa54f49498af0b23d8972090
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: brow_l1
-    100002: brow_l2
-    100004: brow_l3
-    100006: brow_r1
-    100008: brow_r2
-    100010: brow_r3
-    100012: cap_1
-    100014: M_cap
-    100016: M_ear_l
-    100018: M_ear_r
-    100020: M_mouth
-    100022: M_mustache_l
-    100024: M_mustache_r
-    100026: M_nose
-    100028: //RootNode
-    100030: mouth_full2
-    100032: mouth_half_1
-    100034: mouth_half_2
-    100036: mouth_side_1
-    100038: mustache_l2
-    100040: mustache_l3
-    100042: mustache_r2
-    100044: mustache_r3
-    100046: P_ear_l
-    100048: P_ear_r
-    100050: P_mouth
-    100052: P_mustache_l
-    100054: P_mustache_r
-    100056: P_nose
-    100058: skl_root
-    100060: skl_root-node
-    400000: brow_l1
-    400002: brow_l2
-    400004: brow_l3
-    400006: brow_r1
-    400008: brow_r2
-    400010: brow_r3
-    400012: cap_1
-    400014: M_cap
-    400016: M_ear_l
-    400018: M_ear_r
-    400020: M_mouth
-    400022: M_mustache_l
-    400024: M_mustache_r
-    400026: M_nose
-    400028: //RootNode
-    400030: mouth_full2
-    400032: mouth_half_1
-    400034: mouth_half_2
-    400036: mouth_side_1
-    400038: mustache_l2
-    400040: mustache_l3
-    400042: mustache_r2
-    400044: mustache_r3
-    400046: P_ear_l
-    400048: P_ear_r
-    400050: P_mouth
-    400052: P_mustache_l
-    400054: P_mustache_r
-    400056: P_nose
-    400058: skl_root
-    400060: skl_root-node
-    2100000: m_cap_base
-    2100002: m_cap_down
-    2100004: m_cap_mark
-    2100006: m_cap_top
-    2100008: m_ear
-    2100010: m_eye_l
-    2100012: m_eye_r
-    2100014: m_eyelid_l
-    2100016: m_eyelid_r
-    2100018: m_face_front
-    2100020: m_face_side
-    2100022: m_face_tongue
-    2100024: m_hada
-    2100026: m_hair_back
-    2100028: m_hair_base
-    2100030: m_hair_side
-    2100032: m_hige
-    2100034: m_mayu
-    2100036: m_nose_down
-    2100038: m_nose_top
-    2100040: m_tooth
-    4300000: skl_root-node
-    9500000: //RootNode
-    13700000: skl_root-node
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: brow_l1
+  - first:
+      1: 100002
+    second: brow_l2
+  - first:
+      1: 100004
+    second: brow_l3
+  - first:
+      1: 100006
+    second: brow_r1
+  - first:
+      1: 100008
+    second: brow_r2
+  - first:
+      1: 100010
+    second: brow_r3
+  - first:
+      1: 100012
+    second: cap_1
+  - first:
+      1: 100014
+    second: M_cap
+  - first:
+      1: 100016
+    second: M_ear_l
+  - first:
+      1: 100018
+    second: M_ear_r
+  - first:
+      1: 100020
+    second: M_mouth
+  - first:
+      1: 100022
+    second: M_mustache_l
+  - first:
+      1: 100024
+    second: M_mustache_r
+  - first:
+      1: 100026
+    second: M_nose
+  - first:
+      1: 100028
+    second: //RootNode
+  - first:
+      1: 100030
+    second: mouth_full2
+  - first:
+      1: 100032
+    second: mouth_half_1
+  - first:
+      1: 100034
+    second: mouth_half_2
+  - first:
+      1: 100036
+    second: mouth_side_1
+  - first:
+      1: 100038
+    second: mustache_l2
+  - first:
+      1: 100040
+    second: mustache_l3
+  - first:
+      1: 100042
+    second: mustache_r2
+  - first:
+      1: 100044
+    second: mustache_r3
+  - first:
+      1: 100046
+    second: P_ear_l
+  - first:
+      1: 100048
+    second: P_ear_r
+  - first:
+      1: 100050
+    second: P_mouth
+  - first:
+      1: 100052
+    second: P_mustache_l
+  - first:
+      1: 100054
+    second: P_mustache_r
+  - first:
+      1: 100056
+    second: P_nose
+  - first:
+      1: 100058
+    second: skl_root
+  - first:
+      1: 100060
+    second: skl_root-node
+  - first:
+      4: 400000
+    second: brow_l1
+  - first:
+      4: 400002
+    second: brow_l2
+  - first:
+      4: 400004
+    second: brow_l3
+  - first:
+      4: 400006
+    second: brow_r1
+  - first:
+      4: 400008
+    second: brow_r2
+  - first:
+      4: 400010
+    second: brow_r3
+  - first:
+      4: 400012
+    second: cap_1
+  - first:
+      4: 400014
+    second: M_cap
+  - first:
+      4: 400016
+    second: M_ear_l
+  - first:
+      4: 400018
+    second: M_ear_r
+  - first:
+      4: 400020
+    second: M_mouth
+  - first:
+      4: 400022
+    second: M_mustache_l
+  - first:
+      4: 400024
+    second: M_mustache_r
+  - first:
+      4: 400026
+    second: M_nose
+  - first:
+      4: 400028
+    second: //RootNode
+  - first:
+      4: 400030
+    second: mouth_full2
+  - first:
+      4: 400032
+    second: mouth_half_1
+  - first:
+      4: 400034
+    second: mouth_half_2
+  - first:
+      4: 400036
+    second: mouth_side_1
+  - first:
+      4: 400038
+    second: mustache_l2
+  - first:
+      4: 400040
+    second: mustache_l3
+  - first:
+      4: 400042
+    second: mustache_r2
+  - first:
+      4: 400044
+    second: mustache_r3
+  - first:
+      4: 400046
+    second: P_ear_l
+  - first:
+      4: 400048
+    second: P_ear_r
+  - first:
+      4: 400050
+    second: P_mouth
+  - first:
+      4: 400052
+    second: P_mustache_l
+  - first:
+      4: 400054
+    second: P_mustache_r
+  - first:
+      4: 400056
+    second: P_nose
+  - first:
+      4: 400058
+    second: skl_root
+  - first:
+      4: 400060
+    second: skl_root-node
+  - first:
+      21: 2100000
+    second: m_cap_base
+  - first:
+      21: 2100002
+    second: m_cap_down
+  - first:
+      21: 2100004
+    second: m_cap_mark
+  - first:
+      21: 2100006
+    second: m_cap_top
+  - first:
+      21: 2100008
+    second: m_ear
+  - first:
+      21: 2100010
+    second: m_eye_l
+  - first:
+      21: 2100012
+    second: m_eye_r
+  - first:
+      21: 2100014
+    second: m_eyelid_l
+  - first:
+      21: 2100016
+    second: m_eyelid_r
+  - first:
+      21: 2100018
+    second: m_face_front
+  - first:
+      21: 2100020
+    second: m_face_side
+  - first:
+      21: 2100022
+    second: m_face_tongue
+  - first:
+      21: 2100024
+    second: m_hada
+  - first:
+      21: 2100026
+    second: m_hair_back
+  - first:
+      21: 2100028
+    second: m_hair_base
+  - first:
+      21: 2100030
+    second: m_hair_side
+  - first:
+      21: 2100032
+    second: m_hige
+  - first:
+      21: 2100034
+    second: m_mayu
+  - first:
+      21: 2100036
+    second: m_nose_down
+  - first:
+      21: 2100038
+    second: m_nose_top
+  - first:
+      21: 2100040
+    second: m_tooth
+  - first:
+      43: 4300000
+    second: skl_root-node
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: skl_root-node
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -108,6 +280,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -120,19 +293,25 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -144,10 +323,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -157,14 +339,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

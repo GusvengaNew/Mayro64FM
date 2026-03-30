@@ -2,11 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DontDesOnLoad : MonoBehaviour {
+public class DontDesOnLoad : MonoBehaviour
+{
+    private static DontDesOnLoad instance;
 
-	// Use this for initialization
-	void Awake ()
-	{
-		DontDestroyOnLoad(this.gameObject);
-	}
+    void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject); // Kill duplicate
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 }
